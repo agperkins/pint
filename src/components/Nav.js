@@ -17,7 +17,7 @@ export default Nav
 
 const NavWrapper = styled.nav`
 height:60px;
-background: lightcyan;
+background: black;
 border-bottom: 3px solid #ccc;
 text-align: center;
 display: flex;
@@ -25,7 +25,7 @@ display: flex;
 `
 
 const StyledLink = styled(Link)`
-  color: grey;
+  color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-style: bold;
   padding: 15px 15px;
