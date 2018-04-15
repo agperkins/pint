@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Button from '../components/Button'
 import ReactDOM from 'react-dom';
+import styled from 'styled-components'
 
 import {
   Accordion,
@@ -10,7 +11,7 @@ import {
   AccordionItemBody,
 } from 'react-accessible-accordion'
 
-import 'react-accessible-accordion/dist/minimal-example.css';
+import '../styles/accordion.css'
 
 const SecondPage = () => (
   <div>
@@ -28,10 +29,18 @@ const SecondPage = () => (
         <AccordionItem>
             <AccordionItemTitle>
                 <h2>Payment</h2>
+            </AccordionItemTitle>
                 <AccordionItemBody>
                 <p>PayPal, Creditcard</p>
                 </AccordionItemBody>
+        </AccordionItem>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h2>MoreStuff</h2>
             </AccordionItemTitle>
+                <AccordionItemBody>
+                <p>It looks nicer</p>
+                </AccordionItemBody>
         </AccordionItem>
     </Accordion>
   </div>
