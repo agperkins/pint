@@ -7,12 +7,11 @@
 }
 
 .accordion {
-  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 2px;
 }
 
 .accordion__item + .accordion__item {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid #003fa4;
 }
 
 .accordion__item--has-icon {
@@ -20,22 +19,19 @@
 }
 
 .accordion__title {
-  background-color: #f4f4f4;
-  color: #444;
+  color:#003fa4;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   border: none;
 }
 
-.accordion__title:hover {
-  background-color: #ddd;
-}
-
 .accordion__body {
-  padding: 20px;
-  display: block;
+  padding: 1.5rem;
+  color:#003fa4;
+  text-align: center;
+  display: line;
   animation: fadein 0.35s ease-in;
 }
 
