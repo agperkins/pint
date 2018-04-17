@@ -15,12 +15,11 @@ import '../styles/accordion.css'
 
 const SecondPage = () => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
     <Accordion>
         <AccordionItem>
             <AccordionItemTitle>
-                <h2>About</h2>
+                <h1>About</h1>
+                <StyledHeader>A</StyledHeader>
             </AccordionItemTitle>
             <AccordionItemBody>
                 <p>I'm using this site to practice different React features</p>
@@ -28,7 +27,7 @@ const SecondPage = () => (
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h2>Payment</h2>
+                <h1>Payment</h1>
             </AccordionItemTitle>
                 <AccordionItemBody>
                 <p>PayPal, Creditcard</p>
@@ -36,10 +35,34 @@ const SecondPage = () => (
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h2>MoreStuff</h2>
+                <h1>MoreStuff</h1>
             </AccordionItemTitle>
                 <AccordionItemBody>
-                <p>It looks nicer</p>
+                <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
+                </AccordionItemBody>
+        </AccordionItem>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h1>MoreStuff</h1>
+            </AccordionItemTitle>
+                <AccordionItemBody>
+                <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
+                </AccordionItemBody>
+        </AccordionItem>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h1>MoreStuff</h1>
+            </AccordionItemTitle>
+                <AccordionItemBody>
+                <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
+                </AccordionItemBody>
+        </AccordionItem>
+        <AccordionItem>
+            <AccordionItemTitle>
+                <h1>MoreStuff</h1>
+            </AccordionItemTitle>
+                <AccordionItemBody>
+                <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
                 </AccordionItemBody>
         </AccordionItem>
     </Accordion>
@@ -47,3 +70,13 @@ const SecondPage = () => (
 )
 
 export default SecondPage
+
+const StyledHeader = styled.div`
+font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+right: 0;
+text-align: right;
+margin-bottom: 1.45rem;
+font-weight: bold;
+font-size: 4rem;
+`
