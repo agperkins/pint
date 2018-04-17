@@ -31,8 +31,8 @@ class ThirdPage extends React.Component {
       <div>
       <h1>Alexandra Perkins</h1>
       <p>The count is {this.state.clicks}</p>
-      <Button onClick={this.handleClick.bind(this)}>CLick to see me</Button>
-      <Button background={this.state.image === false && ('rebeccapurple') } onClick={this.handleImage.bind(this)}>{this.state.image.toString()}</Button>
+      <Button onClick={this.handleClick.bind(this)}>Make the number go up!</Button>
+      <Button background={this.state.image === false && ('rebeccapurple') } onClick={this.handleImage.bind(this)}>{this.state.image === true ? 'no pic' : 'pic'}</Button>
       {this.state.image === true && (
         <img src={Image} alt="profile picture"/>
       )}
