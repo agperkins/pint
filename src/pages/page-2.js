@@ -12,14 +12,14 @@ import {
 } from 'react-accessible-accordion'
 
 import '../styles/accordion.css'
+import hamburger from '../img/hamburger.svg'
 
 const SecondPage = () => (
   <div>
     <Accordion>
         <AccordionItem>
             <AccordionItemTitle>
-                <h1>About</h1>
-                <StyledHeader>A</StyledHeader>
+                <h2>Hooligans<span style={{float:'right', fontSize: '1.8rem'}}><SVG src={hamburger}/></span></h2>
             </AccordionItemTitle>
             <AccordionItemBody>
                 <p>I'm using this site to practice different React features</p>
@@ -27,15 +27,15 @@ const SecondPage = () => (
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h1>Payment</h1>
-            </AccordionItemTitle>
+            <h2>Menu<span style={{float:'right', fontSize: '1.8rem'}}>C</span></h2>
+                </AccordionItemTitle>
                 <AccordionItemBody>
                 <p>PayPal, Creditcard</p>
                 </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h1>MoreStuff</h1>
+            <h2>Locations<span style={{float:'right', fontSize: '1.8rem'}}>C</span></h2>
             </AccordionItemTitle>
                 <AccordionItemBody>
                 <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
@@ -43,7 +43,7 @@ const SecondPage = () => (
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h1>MoreStuff</h1>
+            <h2>Contact<span style={{float:'right', fontSize: '1.8rem'}}>C</span></h2>
             </AccordionItemTitle>
                 <AccordionItemBody>
                 <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
@@ -51,15 +51,7 @@ const SecondPage = () => (
         </AccordionItem>
         <AccordionItem>
             <AccordionItemTitle>
-                <h1>MoreStuff</h1>
-            </AccordionItemTitle>
-                <AccordionItemBody>
-                <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
-                </AccordionItemBody>
-        </AccordionItem>
-        <AccordionItem>
-            <AccordionItemTitle>
-                <h1>MoreStuff</h1>
+            <h2>History<span style={{float:'right', fontSize: '1.8rem'}}>C</span></h2>
             </AccordionItemTitle>
                 <AccordionItemBody>
                 <p>Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop Skibbidy Bop </p>
@@ -71,12 +63,19 @@ const SecondPage = () => (
 
 export default SecondPage
 
+const Span = styled.div`
+
+`
+
 const StyledHeader = styled.div`
 font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 right: 0;
 text-align: right;
-margin-bottom: 1.45rem;
 font-weight: bold;
 font-size: 4rem;
+`
+
+const SVG = styled.img`
+    height: 40px;
 `
