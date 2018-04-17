@@ -10,6 +10,8 @@ const Nav = () => (
     <StyledLink to="/page-2">Home</StyledLink>
     <StyledLink to="/page-3">Alexandra</StyledLink>
     <StyledLink to="/cardipage">CardiPage</StyledLink>  
+    <StyledLink to="/Menu">Menu</StyledLink>  
+
   </NavWrapper>
 )
 
