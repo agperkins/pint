@@ -60,6 +60,72 @@ const Menu = () => (
       <p><strong>Barbecue Chicken Potato</strong>Stuffed potato topped with our famous gyro meat - $6.99</p>
       <p><strong>Gyro Potato</strong>Stuffed potato topped with our famous gyro meat - $6.99</p>
       <p><strong>Philly Steak Potato</strong>Stuffed potato topped with grilled thin sliced sirloin with onion, pepper, and Swiss cheese - $6.99</p>
+    <h2>Breakfast</h2>
+      <p><strong>Egg Sandwich</strong> - $3.00</p>
+      <p><strong>Egg and Cheese Sandwich</strong> - $3.25</p>
+      <p><strong>Bacon, Egg, and Cheese Sandwich</strong> - $3.50</p>
+      <p><strong>Western Omelet</strong>Stuffed with turkey ham, onions, and bell pepper - $6.05</p>
+      <p><strong>Vegetable Omelet</strong>Stuffed with grilled vegetables and cheese - $5.25</p>
+      <p><strong>Cheese Omelet</strong> - $5.25</p>
+    <h2>Sides</h2>
+      <p><strong>Fries</strong> - $1.89</p>
+      <p><strong>Cheese Fries</strong> - $2.49</p>
+      <p><strong>Fried Okra</strong> - $1.99</p>
+      <p><strong>Onion Rings</strong> - $2.29</p>
+      <p><strong>Cheese Sticks</strong> - $3.49</p>
+      <p><strong>Broccoli</strong> - $1.99</p>
+      <p><strong>Sautéed Mushrooms </strong> - $3.25</p>
+      <p><strong>Wild Rice</strong> - $1.99</p>
+      <p><strong>Tabouli</strong>Chopped parsley, tomatoes, onion, cracked wheet, olive oil, & lemon juice served with pita - $3.99</p>
+      <p><strong>Hummus Dip</strong>Ground chick peas mixed with sesame seed paste, lemon, and salt served with pita bread - $3.99</p>
+      <p><strong>Baba Ghanouj</strong>Baked eggplant mixed with sesame seed paste, lemon salt, and garlic served with pita - $3.99</p>
+  <h2>Desserts</h2>
+    <h3>Pies, baklava, cheesecake and brownies</h3>
+  <h2>For Kids Only</h2>  
+    <h3>Served with fries and a 12oz drink</h3>
+      <p><strong>Chicken Fingers</strong> - $4.59</p>
+      <p><strong>Hamburger</strong> - $4.59</p>
+      <p><strong>Cheeseburger</strong> - $4.59</p>
+      <p><strong>Grilled Cheese</strong> - $4.59</p>
+  <h2>Beverages</h2> 
+      <p><strong>24oz Tea or Fountain Drink</strong> - $1.89</p>
+      <p><strong>Bottled Drinks</strong> - $1.89</p>
+      <p><strong>Coffee</strong> - $1.00</p>
+  <h2>Extras</h2>    
+    <p><strong>Salad Dressing</strong> - $.50</p>
+    <p><strong>Greek Dressing</strong> - $.50</p>
+    <p><strong>Hummus or Tzatziki 2.5oz cup</strong> - $.80</p>
+    <p><strong>Feta 2.5oz cup</strong> - $1.00</p>
+  <h2>***All of our ham, bacon, and sausage produces are turkey or beef products***</h2>  
+  <h2>Call ahead for fast pick up</h2>
+    <p><strong>Downtown</strong> - 205-759-2424</p>
+    <p><strong>Hargrove Road</strong> - 205-349-2500</p>
+    <p><strong>North River</strong> - 205-764-5552</p>
+  <h2>Want us delivered?</h2>  
+    <h3>www.crimson2go.com</h3>
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
