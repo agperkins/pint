@@ -6,7 +6,7 @@ import { IconButton } from 'gestalt'
 
 const Nav = () => (
   <NavWrapper>
-    <StyledLink to="/">P</StyledLink>
+    <StyledLink to="/">Grid Practice</StyledLink>
     <StyledLink to="/page-2">Home</StyledLink>
     <StyledLink to="/page-3">Alexandra</StyledLink>
     <StyledLink to="/cardipage">CardiPage</StyledLink>  
