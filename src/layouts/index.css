@@ -209,6 +209,10 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
+}
 img {
   max-width: 100%;
   margin-left: 0;
