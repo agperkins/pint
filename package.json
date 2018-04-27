@@ -8,6 +8,7 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gestalt": "^0.63.0",
+    "npm": "^6.0.0",
     "react": "^16.3.1",
     "react-accessible-accordion": "^2.3.1",
     "react-dom": "^16.3.1",
