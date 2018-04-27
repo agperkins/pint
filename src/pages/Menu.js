@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+
 
 const Menu = () => (
-<div>
-    <h1>HOOLIGANS</h1>
+<div><h1>HOOLIGANS</h1>
+<main role="main">   
   <section>
       <h2>Wraps</h2>
         <h3>Wrap $6.00 - Combo $8.50</h3>
@@ -131,10 +133,11 @@ const Menu = () => (
     <h2>Want us delivered?</h2>  
       <h3>www.crimson2go.com</h3>
   </section>
-  
+</main> 
 </div>
 
 
 )
 
 export default Menu
+
