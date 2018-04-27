@@ -35,9 +35,7 @@ const Menu = () => (
   <section>
       <h2>Entrees</h2>
         <h3>Plate with salad, rice, hummus or tzatziki dip, and hot pita bread. Kabob skewers served with grilled onion and pepper</h3>
-        <section>
           <p><strong>Falafel Plate</strong> - $10.99</p>
-        </section>
           <p><strong>Gyro Plate</strong> - $10.99</p>
           <p><strong>Kafta Kabob Plate</strong> - $11.99</p>
           <p><strong>Chicken Kabob Plate</strong> - $10.99</p>
